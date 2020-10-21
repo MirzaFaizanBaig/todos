@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="todo.css">
+    <title>ToDo</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo</h1>
+        <form class="search">
+            <input type="text" class="form-control m-auto " name="search" placeholder="Search Todo..." onfocus="this.placeholder=''">
+
+        </form>
+        </header>
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+              <!--  <input  class="check" type="checkbox" aria-label="Checkbox for following text input"> -->
+                <span>mariokart</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+          
+                <span>Make a veggie pie</span>
+                <i class="far fa-trash-alt delete "></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+               
+                <span>good night</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                 <span>Car washing day</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>    
+            </ul>
+            <form  class="add text-center my-4">
+                <label class="text-light">Add a new Todo</label>
+                <input type="text" name="add" class="form-control m-auto">
+            </form>
+
+    </div>
+   <script src="todo.js"></script> 
+   <script src="https://use.fontawesome.com/8d483e6a23.js"></script>
+</body>
+</html>
